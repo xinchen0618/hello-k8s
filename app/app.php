@@ -20,6 +20,5 @@ $app->notFound(function () use($app) {
 });
 
 $app->get('/hello', function () {
-    echo '<pre>';
-    echo shell_exec('php -m');
+    phpinfo();
 });
