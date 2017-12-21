@@ -4,4 +4,3 @@ COPY default.conf /etc/nginx/conf.d/default.conf
 
 RUN git clone https://github.com/xinchen0618/hello-k8s.git
 
-CMD ["supervisord"]
