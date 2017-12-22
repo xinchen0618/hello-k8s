@@ -20,6 +20,6 @@ $app->notFound(function () use($app) {
 });
 
 $app->get('/hello', function () {
-    echo '<br>';
+    echo '<pre>';
     print_r($_SERVER);
 });
