@@ -20,5 +20,5 @@ $app->notFound(function () use($app) {
 });
 
 $app->get('/hello', function () {
-    echo shell_exec('php -v');
+    phpinfo();
 });
