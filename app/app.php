@@ -19,6 +19,6 @@ $app->notFound(function () use($app) {
     echo $app['view']->render('404');
 });
 
-$app->get('/hello', function () {
+$app->get('/phpinfo', function () {
     phpinfo();
 });
